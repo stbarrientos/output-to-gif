@@ -1,0 +1,9 @@
+services:
+  dev:
+    build:
+      context: .
+    volumes:
+      - .:/usr/output-to-gif
+  release:
+    build:
+      context: .
